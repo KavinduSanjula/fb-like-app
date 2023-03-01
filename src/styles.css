@@ -4,13 +4,13 @@
 } */
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-color: #46474e;
+    /* background-color: #46474e; */
 }
 
 .container{
     width: clamp(300px, 80%, 1000px);
     margin: 0 auto;
-    background-color: #282a31;
+    /* background-color: #282a31; */
 }
 
 .outer-div{

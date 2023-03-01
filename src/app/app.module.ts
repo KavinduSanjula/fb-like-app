@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProfilePageComponent } from './components/pages/profile-page/profile-page.component';
 
 const routes : Routes = [
   {path:'', component:HomePageComponent},
@@ -23,7 +24,8 @@ const routes : Routes = [
     LoginPageComponent,
     HeaderComponent,
     HomePageComponent,
-    FooterComponent
+    FooterComponent,
+    ProfilePageComponent
   ],
   imports: [
     BrowserModule,
