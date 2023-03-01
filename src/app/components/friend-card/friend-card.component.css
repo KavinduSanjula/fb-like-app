@@ -1,0 +1,24 @@
+.friend-card{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 1px 10px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    background-color: #ececec;
+}
+
+.friend-card img{
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.friend-card .status-icon{
+    color: green;
+}

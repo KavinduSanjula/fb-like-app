@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProfilePageComponent } from './components/pages/profile-page/profile-page.component';
+import { FriendCardComponent } from './components/friend-card/friend-card.component';
 
 const routes : Routes = [
   {path:'', component:HomePageComponent},
@@ -25,7 +26,8 @@ const routes : Routes = [
     HeaderComponent,
     HomePageComponent,
     FooterComponent,
-    ProfilePageComponent
+    ProfilePageComponent,
+    FriendCardComponent
   ],
   imports: [
     BrowserModule,
