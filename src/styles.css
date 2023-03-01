@@ -1,11 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+/* *{
+    outline: 1px solid seagreen;
+} */
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #46474e;
 }
 
 .container{
     width: clamp(300px, 80%, 1000px);
     margin: 0 auto;
+    background-color: #282a31;
 }
 
 .outer-div{
@@ -92,12 +97,23 @@ body{
 
 .btn{
     display: block;
-    width: 170px;
     margin-top: 15px;
-    padding: 10px;
+    padding: 10px 25px;
     background-color: black;
     border-radius: 10px;
     color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.s-btn{
+    display: block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
     font-weight: bold;
     font-size: 19px;
 }

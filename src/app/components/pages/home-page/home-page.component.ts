@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HomePageComponent {
 
-  loggedIn : boolean = false;
+  loggedIn : boolean = true;
 
 }
