@@ -118,6 +118,11 @@ body{
     font-size: 19px;
 }
 
+.s-btn:hover{
+    background-color: black;
+    color: white;
+}
+
 .btn-div{
     display: flex;
     justify-content: center;

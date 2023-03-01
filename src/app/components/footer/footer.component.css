@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #060e1d;
-    color: #969696;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 2px 2px 5px #ccc;
+    color: #363636;
+    border-radius: 3px;
 }
